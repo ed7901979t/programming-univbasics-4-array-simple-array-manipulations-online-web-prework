@@ -21,33 +21,33 @@ def using_unshift(array, string)
 end
 using_unshift(artists, "Cool")
 
-def using_pop(Array, String)
+def using_pop(array, string)
   Array.pop(String)
 end
 using_pop(artists, "Cool")
 
-def using_pop_with_args(Array, String1, String2)
+def using_pop_with_args(array, string, string)
   Array.pop(String1)
   Array.pop(String2)
 end
 using_pop_with_args(artists, "Coolfirst", "Coolsecond")
 
-def using_shift(Array)
+def using_shift(array)
   Array.shift(String)
 end
 using_shift(artists)
 
-def shift_with_args(Array, String1, String2)
+def shift_with_args(array, string, string)
   Array.shift(String1)
 end
 shift_with_args(artists, "Coolfirst", "Coolsecond")
 
-def using_concat(Array, Array2)
+def using_concat(array, array)
   Array.concat(Array2)
 end
 using_concat(artists, artists2)
 
-def using_insert(Array, element)
+def using_insert(array, element)
   Array.insert(element[3])
 end
 using_insert(artists, "Three")
