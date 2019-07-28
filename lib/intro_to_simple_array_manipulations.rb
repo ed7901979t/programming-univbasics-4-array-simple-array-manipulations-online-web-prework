@@ -21,7 +21,7 @@ end
 #using_unshift(artists, "Cool")
 
 def using_pop(array)
-  Array.pop
+  array.pop
 end
 using_pop(artists)
 
