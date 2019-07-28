@@ -52,17 +52,17 @@ def using_insert(array, element)
 end
 using_insert(artists, "Three")
 
-def using_uniq(Array)
+def using_uniq(array)
   Array.uniq
 end
 using_uniq(artists)
 
-def using_flatten(Array)
+def using_flatten(array)
   Array.flatten
 end
 using_flatten(artists3)
 
-def using_delete(Array, String)
+def using_delete(array, string)
   Array.delete(String)
 end
 using_delete
