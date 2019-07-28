@@ -2,33 +2,74 @@ artists = ["Hozier", "Ariana", "Grande", "Usher"]
 next_artist = "Beyonce"
 artists.push(next_artist)
 artists
+
+artists2 = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+artists2.pop
+artists2
+
+artists3 = [ artists2, "Tommy"]
+artists3
+
 #using functions
 def using_push(Array, String)
-  artists.push(String)
+  Array.push(String)
 end
 using_push(artistsm "Great")
 
 def using_unshift(Array, String)
-  artists.unshift(String)
+  Array.unshift(String)
 end
 using_unshift(artists, "Cool")
 
 def using_pop(Array, String)
-  artists.pop(String)
+  Array.pop(String)
 end
 using_pop(artists, "Cool")
 
 def using_pop_with_args(Array, String1, String2)
-  artists.pop(String1)
-  artists.pop(String2)
+  Array.pop(String1)
+  Array.pop(String2)
 end
 using_pop_with_args(artists, "Coolfirst", "Coolsecond")
 
 def using_shift(Array)
-  artists.shift(String)
+  Array.shift(String)
 end
 using_shift(artists)
 
 def shift_with_args(Array, String1, String2)
-  artists.shift(String1)
+  Array.shift(String1)
 end
+shift_with_args(artists, "Coolfirst", "Coolsecond")
+
+def using_concat(Array, Array2)
+  Array.concat(Array2)
+end
+using_concat(artists, artists2)
+
+def using_insert(Array, element)
+  Array.insert(element[3])
+end
+using_insert(artists, "Three")
+
+def using_uniq(Array)
+  Array.uniq
+end
+using_uniq(artists)
+
+def using_flatten(Array)
+  Array.flatten
+end
+using_flatten(artists3)
+
+def using_delete(Array, String)
+  Array.delete(String)
+end
+using_delete
+
+def using_delete_at(Array, Integer)
+  Array.delete
+end
+using_delete_at
+
+
