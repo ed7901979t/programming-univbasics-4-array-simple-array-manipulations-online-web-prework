@@ -19,7 +19,7 @@ using_push(artists, "Great")
 def using_unshift(array, string)
   Array.using_unshift(String)
 end
-using_unshift(artists, "Cool")
+#using_unshift(artists, "Cool")
 
 def using_pop(array, string)
   Array.pop(String)
