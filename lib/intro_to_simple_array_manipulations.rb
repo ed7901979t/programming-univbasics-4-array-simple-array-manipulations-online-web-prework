@@ -11,8 +11,8 @@ artists3 = [ artists2, "Tommy"]
 artists3
 
 #using functions
-def using_push(Array, String)
-  Array.push(String)
+def using_push(array, String)
+  array.push(String)
 end
 using_push(artistsm "Great")
 
