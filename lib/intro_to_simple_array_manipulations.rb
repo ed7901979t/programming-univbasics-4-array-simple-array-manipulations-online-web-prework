@@ -25,7 +25,7 @@ def using_pop(array)
 end
 #using_pop(artists)
 
-def using_pop_with_args(array, string)
+def using_pop_with_args(array)
   Array.pop(String)
 end
 using_pop_with_args(artists, "Coolfirst")
