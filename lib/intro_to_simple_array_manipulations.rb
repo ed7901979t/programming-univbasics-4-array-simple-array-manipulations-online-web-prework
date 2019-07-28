@@ -28,7 +28,7 @@ using_pop(artists)
 def using_pop_with_args(array, string)
   Array.pop(String1)
 end
-using_pop_with_args(artists, "Coolfirst", "Coolsecond")
+using_pop_with_args(artists, "Coolfirst")
 
 def using_shift(array)
   Array.shift(String)
