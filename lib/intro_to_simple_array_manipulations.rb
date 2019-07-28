@@ -23,7 +23,7 @@ end
 def using_pop(array)
   Array.pop
 end
-using_pop(artists, "Cool")
+using_pop(artists)
 
 def using_pop_with_args(array, string)
   Array.pop(String1)
