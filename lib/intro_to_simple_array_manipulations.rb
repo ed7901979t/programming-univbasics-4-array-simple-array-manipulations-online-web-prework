@@ -26,9 +26,8 @@ def using_pop(array, string)
 end
 using_pop(artists, "Cool")
 
-def using_pop_with_args(array, string, string)
+def using_pop_with_args(array, string)
   Array.pop(String1)
-  Array.pop(String2)
 end
 using_pop_with_args(artists, "Coolfirst", "Coolsecond")
 
