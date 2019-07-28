@@ -20,8 +20,8 @@ def using_unshift(array, string)
 end
 #using_unshift(artists, "Cool")
 
-def using_pop(array, string)
-  Array.pop(String)
+def using_pop(array)
+  Array.pop
 end
 using_pop(artists, "Cool")
 
