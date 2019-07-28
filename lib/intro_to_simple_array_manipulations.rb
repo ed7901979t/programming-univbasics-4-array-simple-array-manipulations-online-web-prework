@@ -4,7 +4,6 @@ artists.push(next_artist)
 artists
 
 artists2 = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
-artists2.pop
 artists2
 
 artists3 = [ artists2, "Tommy"]
