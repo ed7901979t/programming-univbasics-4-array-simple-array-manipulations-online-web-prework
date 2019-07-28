@@ -17,7 +17,7 @@ end
 using_push(artists, "Great")
 
 def using_unshift(array, string)
-  Array.unshift(String)
+  Array.using_unshiftunshift(String)
 end
 using_unshift(artists, "Cool")
 
