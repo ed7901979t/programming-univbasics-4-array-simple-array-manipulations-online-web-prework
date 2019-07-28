@@ -14,7 +14,7 @@ artists3
 def using_push(array, string)
   array.push(String)
 end
-using_push(artistsm "Great")
+using_push(artists, "Great")
 
 def using_unshift(array, string)
   Array.unshift(String)
