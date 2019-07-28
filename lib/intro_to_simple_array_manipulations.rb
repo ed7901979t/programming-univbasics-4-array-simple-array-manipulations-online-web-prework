@@ -37,8 +37,8 @@ def using_shift(array)
 end
 using_shift(artists)
 
-def shift_with_args(array, string, string1)
-  Array.shift(String, String1)
+def shift_with_args(array, string)
+  Array.shift(String)
 end
 shift_with_args(artists, "Coolfirst", "Coolsecond")
 
