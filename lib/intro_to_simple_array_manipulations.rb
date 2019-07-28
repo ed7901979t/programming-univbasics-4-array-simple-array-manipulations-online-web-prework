@@ -37,12 +37,12 @@ def using_shift(array)
 end
 using_shift(artists)
 
-def shift_with_args(array, string, string)
+def shift_with_args(array, string, string1)
   Array.shift(String1)
 end
 shift_with_args(artists, "Coolfirst", "Coolsecond")
 
-def using_concat(array, array)
+def using_concat(array, array2)
   Array.concat(Array2)
 end
 using_concat(artists, artists2)
